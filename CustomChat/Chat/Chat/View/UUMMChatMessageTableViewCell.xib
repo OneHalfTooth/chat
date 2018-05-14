@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="UUMMChatMessageTableViewCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="UUMMChatMessageTableViewCell" rowHeight="66" id="KGk-i7-Jjw" customClass="UUMMChatMessageTableViewCell" customModule="UUMMShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="65.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="FX0-l7-Fpm">
+                        <rect key="frame" x="265" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="E5x-TG-sJw"/>
+                            <constraint firstAttribute="width" constant="40" id="mbi-Py-paI"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eX7-G1-sDu">
+                        <rect key="frame" x="-1563" y="14" width="1824.5" height="41.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="交罚款四大行解放军奥斯卡的发哈就开始电话费啊可接受的发卡机是打飞机啊看电视剧非环境卡萨丁发哈就开始的和继父回家阿克苏的交罚款四大行解放军奥斯卡的发哈就开始电话费啊可接受的发卡机是打飞机啊看电视剧非环境卡萨丁发哈就开始的和继父回家阿克苏的" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xcx-95-Xpf">
+                        <rect key="frame" x="-1556" y="18" width="1805.5" height="33.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="FX0-l7-Fpm" firstAttribute="leading" secondItem="xcx-95-Xpf" secondAttribute="trailing" constant="15" id="3c0-iT-BeK"/>
+                    <constraint firstItem="xcx-95-Xpf" firstAttribute="bottom" secondItem="eX7-G1-sDu" secondAttribute="bottom" constant="-4" id="7c6-K8-a4k"/>
+                    <constraint firstItem="FX0-l7-Fpm" firstAttribute="top" secondItem="xcx-95-Xpf" secondAttribute="top" constant="-8" id="Pb5-T5-sSY"/>
+                    <constraint firstItem="xcx-95-Xpf" firstAttribute="leading" secondItem="eX7-G1-sDu" secondAttribute="leading" constant="7" id="Ra1-tF-d4R"/>
+                    <constraint firstAttribute="bottom" secondItem="xcx-95-Xpf" secondAttribute="bottom" constant="14" id="RaS-eP-RIE"/>
+                    <constraint firstItem="xcx-95-Xpf" firstAttribute="trailing" secondItem="eX7-G1-sDu" secondAttribute="trailing" constant="-12" id="RlR-JD-FmK"/>
+                    <constraint firstItem="xcx-95-Xpf" firstAttribute="top" secondItem="eX7-G1-sDu" secondAttribute="top" constant="4" id="dRm-IZ-YoS"/>
+                    <constraint firstItem="FX0-l7-Fpm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="fhX-mR-7Y2"/>
+                    <constraint firstAttribute="trailing" secondItem="FX0-l7-Fpm" secondAttribute="trailing" constant="15" id="jTf-5c-bC2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backImageView" destination="eX7-G1-sDu" id="5EA-Q7-X0f"/>
+                <outlet property="contentLabel" destination="xcx-95-Xpf" id="r3P-DQ-lzq"/>
+                <outlet property="userImageView" destination="FX0-l7-Fpm" id="Za4-BX-vfN"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="65"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder" width="70" height="70"/>
+    </resources>
+</document>
